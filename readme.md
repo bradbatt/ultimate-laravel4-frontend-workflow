@@ -17,10 +17,15 @@ To end the watching of file press CTRL+C or cmd+c.
 
 #### Stylesheets & Scripts
 `<link rel="stylesheet" href="assets/css/bootstrap.min.css">`
-`<link rel="stylesheet" href="assets/css/jquery-ui.min.css">`
+
+`<link rel="stylesheet" href="assets/css/jquery-ui.min.css">` (Optional!)
+
 `<script src="assets/js/jquery-1.9.1.min.js"></script>`
+
 `<script src="assets/js/bootstrap.min.js"></script>`
-`<script src="assets/js/jquery-ui-1.10.3.min.js"></script> (OPTIONAL!!)`
+
+`<script src="assets/js/jquery-ui-1.10.3.min.js"></script>` (Optional!)
+
 `<script src="http://localhost:35729/livereload.js"></script> `
 
 NOTE: The last script 'livereload.js' is only optional if you already have the livereload plugin already installed for Chrome/FireFox !!
