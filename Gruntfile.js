@@ -195,6 +195,6 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ["clean:all", "less", "cssmin", "concat", "uglify"]);
 
     // Bootstrap specific watch tasks
-    grunt.registerTask('watch-bs2', ["clean:all", "less:bs2", "cssmin", "concat:bs2", "uglify", "notify:bs2"]);
-    grunt.registerTask('watch-bs3', ["clean:all", "less:bs3", "cssmin", "concat:bs3", "uglify", "notify:bs3"]);
+    grunt.registerTask('watch-bs2', ["clean:all", "less:bs2", "cssmin", "concat:bs2", "uglify"]);
+    grunt.registerTask('watch-bs3', ["clean:all", "less:bs3", "cssmin", "concat:bs3", "uglify"]);
 };
