@@ -44,7 +44,7 @@ module.exports = function (grunt) {
         cssmin: {
             compress: {
                 files: {
-                    "public/assets/css/style.min.css": [
+                    "public/assets/css/bootstrap.min.css": [
                         "public/build/css/style.css"
                     ]
                 }
@@ -54,18 +54,18 @@ module.exports = function (grunt) {
         concat: {
             bs2: {
                 src: ["public/build/js/bootstrap2/*.js"],
-                dest: "public/build/js/script.js"
+                dest: "public/build/js/bootstrap.js"
             },
             bs3: {
                 src: ["public/build/js/bootstrap3/*.js"],
-                dest: "public/build/js/script.js"
+                dest: "public/build/js/bootstrap.js"
             }
         },
         // Uglify
         uglify: {
             my_target: {
                 files: {
-                    "public/assets/js/script.min.js": ["public/build/js/script.js"]
+                    "public/assets/js/bootstrap.min.js": ["public/build/js/script.js"]
                 }
             }
         },
@@ -77,7 +77,7 @@ module.exports = function (grunt) {
                 },
                 expand: true,
                 cwd: 'public/assets/',
-                src: ['js/script.min.js', 'css/style.min.css'],
+                src: ['js/bootstrap.min.js', 'css/bootstrap.min.css'],
                 dest: 'public/assets/'
             }
         },
