@@ -33,7 +33,7 @@ module.exports = function (grunt) {
             bs3: {
                 options: {
                     yuicompress: true,
-                    paths: ["public/build/less/bootstrap3", "public/build/fonts"]
+                    paths: ["public/build/less/bootstrap3", "public/build/less/font-awesome", "public/build/fonts"]
                 },
                 files: {
                     "public/build/css/style.css": "public/build/less/bootstrap3/custom-bootstrapper.less"
@@ -65,7 +65,7 @@ module.exports = function (grunt) {
         uglify: {
             my_target: {
                 files: {
-                    "public/assets/js/bootstrap.min.js": ["public/build/js/script.js"]
+                    "public/assets/js/bootstrap.min.js": ["public/build/js/bootstrap.js"]
                 }
             }
         },
